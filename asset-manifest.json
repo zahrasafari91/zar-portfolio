@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/zar-portfolio/static/css/main.3879b548.css",
-    "main.js": "/zar-portfolio/static/js/main.eee7645e.js",
-    "static/js/787.bbe01249.chunk.js": "/zar-portfolio/static/js/787.bbe01249.chunk.js",
-    "static/media/Dayflow-Abstract.png": "/zar-portfolio/static/media/Dayflow-Abstract.21ed8a96afbfee4c4aba.png",
-    "static/media/zi-avatar.png": "/zar-portfolio/static/media/zi-avatar.84546fd573a367102d5a.png",
-    "static/media/zara-avatar.png": "/zar-portfolio/static/media/zara-avatar.dc7a59cd22d97f9dcf0d.png",
-    "static/media/logo.svg": "/zar-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/dots-bg.svg": "/zar-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "main.css": "/zar-portfolio/static/css/main.b3f81fe6.css",
+    "main.js": "/zar-portfolio/static/js/main.f1a6ee4d.js",
+    "static/js/787.bc6dc937.chunk.js": "/zar-portfolio/static/js/787.bc6dc937.chunk.js",
     "index.html": "/zar-portfolio/index.html",
-    "main.3879b548.css.map": "/zar-portfolio/static/css/main.3879b548.css.map",
-    "main.eee7645e.js.map": "/zar-portfolio/static/js/main.eee7645e.js.map",
-    "787.bbe01249.chunk.js.map": "/zar-portfolio/static/js/787.bbe01249.chunk.js.map"
+    "main.b3f81fe6.css.map": "/zar-portfolio/static/css/main.b3f81fe6.css.map",
+    "main.f1a6ee4d.js.map": "/zar-portfolio/static/js/main.f1a6ee4d.js.map",
+    "787.bc6dc937.chunk.js.map": "/zar-portfolio/static/js/787.bc6dc937.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3879b548.css",
-    "static/js/main.eee7645e.js"
+    "static/css/main.b3f81fe6.css",
+    "static/js/main.f1a6ee4d.js"
   ]
 }
