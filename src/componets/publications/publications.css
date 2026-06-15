@@ -1,0 +1,41 @@
+.publications__content{
+    max-width: 900px;
+}
+
+.publications__item{
+    line-height: 1.85;
+    margin-bottom: 1.25rem;
+    max-width: 900px;
+}
+
+.publications__item:last-child{
+    margin-bottom: 0;
+}
+
+.publications__item strong{
+    color: var(--title-color);
+    display: block;
+    font-weight: var(--font-semibold);
+}
+
+.publications__meta{
+    align-items: center;
+    color: var(--first-color);
+    display: flex;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semibold);
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.publications__github{
+    color: var(--title-color);
+    display: inline-flex;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.publications__github:hover{
+    color: var(--first-color);
+    transform: translateY(-2px);
+}

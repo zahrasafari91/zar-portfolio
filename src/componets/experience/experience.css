@@ -1,0 +1,135 @@
+.resume__intro{
+    max-width: 720px;
+    margin: -0.5rem 0 2rem;
+    line-height: 1.85;
+}
+
+.timeline__sections{
+    display: grid;
+    max-width: 900px;
+    row-gap: 2rem;
+}
+
+.timeline__section{
+    scroll-margin-top: 6rem;
+}
+
+.timeline__heading{
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+}
+
+.timeline{
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 22px rgb(69 67 96 / 5%);
+    max-width: 900px;
+    padding: 2rem;
+}
+
+.timeline__item{
+    margin-bottom: 2.75rem;
+    padding-left: 4.25rem;
+    position: relative;
+}
+
+.timeline__item:last-child{
+    margin-bottom: 0;
+}
+
+.timeline__item::before{
+    background-color: var(--first-color);
+    content: '';
+    height: calc(100% + 2rem);
+    left: 1.25rem;
+    opacity: 0.85;
+    position: absolute;
+    top: 2.6rem;
+    width: 1px;
+}
+
+.timeline__item:last-child::before{
+    display: none;
+}
+
+.timeline__item .fa-briefcase,
+.timeline__item .fa-graduation-cap,
+.timeline__item .fa-chalkboard-user,
+.timeline__item .fa-award{
+    background-color: var(--surface-color);
+    color: hsl(353, 90%, 72%);
+    font-size: 1.15rem;
+    left: 0.55rem;
+    padding: 0.45rem 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.timeline__date{
+    color: #8b88b1;
+    display: block;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semibold);
+    margin-bottom: 0.5rem;
+}
+
+.timeline__issuer{
+    color: #8b88b1;
+    display: block;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.75rem;
+}
+
+.timeline__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.35rem;
+    max-width: 720px;
+}
+
+.timeline__text{
+    line-height: 1.85;
+    max-width: 760px;
+}
+
+.timeline__paragraphs .timeline__text{
+    margin-bottom: 0.75rem;
+}
+
+.timeline__paragraphs .timeline__text:last-child{
+    margin-bottom: 0;
+}
+
+.timeline__link{
+    color: var(--first-color);
+    display: inline-block;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semibold);
+    margin-top: 0.75rem;
+}
+
+.timeline__link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline{
+        padding: 1.25rem;
+    }
+
+    .timeline__item{
+        padding-left: 3.25rem;
+    }
+
+    .timeline__item::before{
+        left: 1rem;
+    }
+
+    .timeline__item .fa-briefcase,
+    .timeline__item .fa-graduation-cap,
+    .timeline__item .fa-chalkboard-user,
+    .timeline__item .fa-award{
+        left: 0.1rem;
+    }
+}
