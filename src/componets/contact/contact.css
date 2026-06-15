@@ -1,9 +1,5 @@
 .contact.section{
-<<<<<<< HEAD
-    padding-bottom: 8.5rem;
-=======
     padding-bottom: 4.5rem;
->>>>>>> c29ae357 (Initial commit)
 }
 
 .contact__container{
@@ -19,11 +15,7 @@
 
 .contact__form{
     margin-left: 3.875rem;
-<<<<<<< HEAD
-    margin-right: 10.875rem;
-=======
     max-width: 680px;
->>>>>>> c29ae357 (Initial commit)
 }
 
 .contact__form-group{
@@ -53,26 +45,12 @@
     z-index: 1;
 }
 
-<<<<<<< HEAD
-.contact__form{
-    height: 10.25rem;
-    margin-bottom: 8rem;
-}
-
-=======
->>>>>>> c29ae357 (Initial commit)
 .contact__form-area textarea{
     height: 150px;
 
 }
-<<<<<<< HEAD
-.btn{
-    margin-top: 4.875rem;
-    justify-content: right;
-=======
 .contact .btn{
     margin-top: 1rem;
->>>>>>> c29ae357 (Initial commit)
 }
 
 @media screen and (max-width: 1024px) {
@@ -84,11 +62,7 @@
     .contact__form{
         margin: 1.875rem;
     }
-<<<<<<< HEAD
-    .btn{
-=======
     .contact .btn{
->>>>>>> c29ae357 (Initial commit)
         justify-content: center;
     }
 }
@@ -104,14 +78,7 @@
     .contact__form-input{
         text-align: center;
     }
-<<<<<<< HEAD
-    .btn{
-        justify-content: center;
-    }
-}
-=======
     .contact .btn{
         justify-content: center;
     }
 }
->>>>>>> c29ae357 (Initial commit)

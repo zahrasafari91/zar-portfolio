@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "short_name": "React App",
-  "name": "Create React App Sample",
-=======
   "short_name": "Portfolio",
   "name": "Zar Safari Portfolio",
->>>>>>> c29ae357 (Initial commit)
   "icons": [
     {
       "src": "favicon.ico",
@@ -25,11 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-<<<<<<< HEAD
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-=======
   "theme_color": "#fdfcff",
   "background_color": "#fdfcff"
->>>>>>> c29ae357 (Initial commit)
 }
