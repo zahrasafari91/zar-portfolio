@@ -4,7 +4,7 @@ export const educationData = [
     icon: "fa-solid fa-graduation-cap",
     year: "2024 - 2026",
     title: "Master of Science, University of Calgary",
-    desc: "Software and Machine Learning Engineering, GPA: 4.0/4.0. My focus is on building reliable AI systems that connect research, data, and practical software applications.",
+    desc: "Software and Machine Learning Engineering, GPA: 4.0/4.0.",
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ export const experienceData = [
     id: 1,
     icon: "fa-solid fa-briefcase",
     year: "Jan 2024 - Mar 2026",
-    title: "AI/ML Research Assistant, University of Calgary",
+    title: "Research Assistant, University of Calgary",
     desc: "This role brought together my interests in healthcare, machine learning, and practical AI systems. I worked on cardiac arrest risk prediction using multi-lead ECG data, building deep learning pipelines and connecting model outputs into a Digital Twin platform for continuous monitoring. The work helped me think about AI beyond model training, especially how predictions can become part of a larger system that supports real-time use.",
   },
   {
@@ -68,15 +68,36 @@ export const experienceData = [
   {
     id: 3,
     icon: "fa-solid fa-briefcase",
+    year: "Sep 2025 - Dec 2025",
+    title: "Lab2Market Participant",
+    desc: "Joined Lab2Market to explore the product and commercialization side of research-driven technology. Through customer discovery and market validation, I worked on understanding user needs, testing assumptions, and thinking about how a technical idea could become a useful product.",
+  },
+  {
+    id: 4,
+    icon: "fa-solid fa-briefcase",
+    year: "Jan 2025 - Apr 2025",
+    title: "Evolve to Innovate (e2i) Participant, University of Calgary",
+    desc: "Selected for the University of Calgary's Evolve to Innovate program, where I explored entrepreneurial thinking, research translation, customer discovery, and the process of moving an early technical idea toward real-world impact.",
+  },
+  {
+    id: 5,
+    icon: "fa-solid fa-briefcase",
     year: "Mar 2023 - Sep 2023",
     title: "Full Stack Developer, Comet",
     desc: "At Comet, I worked on AI-powered product features for a college guidance platform. This was where full-stack development and AI started to connect more directly in my work: backend services, Angular interfaces, LLM workflows, and conversational experiences all had to fit together inside the product. I enjoyed this kind of work because the AI piece had to be useful within the full application, not separate from it.",
   },
   {
-    id: 4,
+    id: 6,
     icon: "fa-solid fa-briefcase",
     year: "Oct 2021 - Feb 2022",
     title: "Full Stack Developer Intern, Jambo",
     desc: "My internship at Jambo was an important part of my full-stack engineering foundation. I developed frontend and backend features, worked with databases and testing, and collaborated through Git-based team workflows. That experience shaped how I think about software work: understanding both the user-facing side and the backend pieces that make an application reliable.",
+  },
+  {
+    id: 7,
+    icon: "fa-solid fa-briefcase",
+    year: "Jul 2021 - Sep 2021",
+    title: "Full Stack Developer, Alethea Medical",
+    desc: "Worked on healthcare software features for Alethea Medical, contributing across the product stack including frontend development, backend services, APIs, databases, and user-facing functionality in a clinical technology context.",
   },
 ];

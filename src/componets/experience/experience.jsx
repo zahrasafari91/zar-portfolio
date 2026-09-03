@@ -7,10 +7,6 @@ const Experience = () => {
     return (
         <section className="resume container section" id="experience">
             <h2 className="section__title">Experience</h2>
-            <p className="resume__intro">
-                From full-stack foundations to applied AI, my work has grown around one theme:
-                building systems that are useful, reliable, and complete.
-            </p>
 
             <div className="timeline__sections">
                 <div className="timeline__section">
